@@ -163,7 +163,7 @@ a:focus{
 }
 
 .jumbotron h1{
-	text-transform: uppercase;
+	text-transform: lowercase;
 	margin-bottom: 30px;
 }
 
