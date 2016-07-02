@@ -1,0 +1,25 @@
+/* unvisited link */
+a:link {
+    color: #5c5c8a;
+}
+
+/* visited link */
+a:visited {
+    color: #660066;
+}
+
+/* mouse over link */
+a:hover {
+    color: #cc00cc;
+}
+
+/* selected link */
+a:active {
+    color: #990099;
+}
+
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+.material-icons.md-48 { font-size: 48px; }
