@@ -66,12 +66,13 @@ ml.timelines["ml15"] = anime.timeline({loop: false})
   ml.timelines["ml152"] = anime.timeline({loop: false})
   .add({
     targets: '.ml152 .word2',
+    
     scale: [14,1],
     opacity: [0,1],
     easing: "easeOutCirc",
-    duration: 1000,
+    duration: 12000,
     delay: function(el, i) {
-      return 1000 * i;
+      return 1000000 * i;
     }
   });
 </script>
@@ -99,6 +100,10 @@ ml.timelines["ml15"] = anime.timeline({loop: false})
 .ml152 .word2 {
   display: inline-block;
   line-height: 7em;
+}
+
+a {
+  color: #fff111
 }
 </style>
 
