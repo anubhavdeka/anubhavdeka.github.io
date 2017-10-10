@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>why</title>
+  <title>i love you so much</title>
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
@@ -41,17 +41,13 @@
     <h1 class="ml11">
       <span class="text-wrapper">
           <span class="letters">
-              Hello Goodbye Hello Goodbye
+              Hello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello GoodbyeHello Goodbye Hello Goodbye
           </span>
       </span>
     </h1>
-    <h1 class="ml11">
-      <span class="text-wrapper">
-          <span class="letters">
-              <a href="../new/v6.html"><i class="material-icons">add</i></a>
-          </span>
-        </span>
-      </h1>
+    <h1 class="ml152">
+      <span class="word2"><a href="../new/v5.html"><i class = "material-icons">arrow_forward</i></a></span>
+    </h1>
   </div>
 
   <!--more-->
@@ -90,8 +86,13 @@
         line-height: 0.2em;
       }
 
+      .ml152 .word2 {
+        display: inline-block;
+        line-height: 9em;
+      }
+
       a {
-        color: #D9C5B9
+        color: #fff111
       }
       </style>
 
@@ -124,6 +125,17 @@
             return 34 * (i+1)
           }
         });
+          ml.timelines["ml152"] = anime.timeline({loop: false})
+          .add({
+            targets: '.ml152 .word2',
+            scale: [14,2],
+            opacity: [0,1],
+            easing: "easeOutCirc",
+            delay: function(el, i) {
+              return 1000000 * i;
+            }
+          });
+        </script>
       </script>
 
 </body>
