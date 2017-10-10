@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>11 Hello Goodbye</title>
-  
+  <title>why</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script>var ml = { timelines: {}};</script>
@@ -25,92 +32,99 @@
     height: 20px;
   }
   </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
+
+
 <body>
   <div class="moving-letters">
     <h1 class="ml11">
-  <span class="text-wrapper">
-    
-    <span class="letters">Hello Goodbye Hello Goodbye Hello Goodbye Hello Goodbye Hello Goodbye Hello Goodbye Hello Goodbye Hello Goodbye Hello Goodbye Hello Goodbye Hello GoodbyeHello GoodbyeHello Goodbye Hello Goodbye Hello Goodbye Hello Goodbye Hello Goodbye</span>
-  </span>
-</h1>
-
-<!--more-->
-
-<style>
-.ml11 {
-  font-weight: 800;
-  font-size: 3em;
-}
-
-.ml11 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.1em;
-  padding-right: 0.05em;
-  padding-bottom: 0.15em;
-}
-
-.ml11 .line {
-  opacity: 0;
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 3px;
-  background-color: #fff;
-  transform-origin: 0 50%;
-}
-
-.ml11 .line1 { 
-  top: 0; 
-  left: 0;
-}
-
-.ml11 .letter {
-  display: inline-block;
-  line-height: 0.5em;
-}
-</style>
-
-<script>
-// Wrap every letter in a span
-$('.ml11 .letters').each(function(){
-  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-});
-
-ml.timelines["ml11"] = anime.timeline({loop: false})
-  .add({
-    targets: '.ml11 .line',
-    scaleY: [0,1],
-    opacity: [0.5,1],
-    easing: "easeOutExpo",
-    duration: 700
-  })
-  .add({
-    targets: '.ml11 .line',
-    translateX: [0,$(".ml11 .letters").width()],
-    easing: "easeOutExpo",
-    duration: 700,
-    delay: 100
-  }).add({
-    targets: '.ml11 .letter',
-    opacity: [0,1],
-    easing: "easeOutExpo",
-    duration: 600,
-    offset: '-=775',
-    delay: function(el, i) {
-      return 34 * (i+1)
-    }
-  }).add({
-    targets: '.ml11',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-</script>
-
-
+      <span class="text-wrapper">
+          <span class="letters">
+              Hello Goodbye Hello Goodbye
+          </span>
+      </span>
+    </h1>
+    <h1 class="ml11">
+      <span class="text-wrapper">
+          <span class="letters">
+              <a href="../new/v6.html"><i class="material-icons">add</i></a>
+          </span>
+        </span>
+      </h1>
   </div>
+
+  <!--more-->
+
+  <style>
+      .ml11 {
+        font-weight: 600;
+        font-size: 2.0em;
+      }
+
+      .ml11 .text-wrapper {
+        position: relative;
+        display: inline-block;
+        padding-top: 0.1em;
+        padding-right: 0.05em;
+        padding-bottom: 0.15em;
+      }
+
+      .ml11 .line {
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 3px;
+        background-color: #fff;
+        transform-origin: 0 50%;
+      }
+
+      .ml11 .line1 { 
+        top: 0; 
+        left: 0;
+      }
+
+      .ml11 .letter {
+        display: inline-block;
+        line-height: 0.2em;
+      }
+
+      a {
+        color: #D9C5B9
+      }
+      </style>
+
+      <script>
+      $('.ml11 .letters').each(function(){
+        $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+      });
+
+      ml.timelines["ml11"] = anime.timeline({loop: false})
+        .add({
+          targets: '.ml11 .line',
+          scaleY: [0,1],
+          opacity: [0.5,1],
+          easing: "easeOutExpo",
+          duration: 700
+        })
+        .add({
+          targets: '.ml11 .line',
+          translateX: [0,$(".ml11 .letters").width()],
+          easing: "easeOutExpo",
+          duration: 700,
+          delay: 100
+        }).add({
+          targets: '.ml11 .letter',
+          opacity: [0,1],
+          easing: "easeOutExpo",
+          duration: 600,
+          offset: '-=775',
+          delay: function(el, i) {
+            return 34 * (i+1)
+          }
+        });
+      </script>
+
 </body>
 </html>
