@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>04 Ready</title>
+  <title>happy birthday!</title>
   
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,900' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -37,7 +37,9 @@
     <h1 class="ml4">
         <span class="letters letters-1">happy birthday</span>
         <span class="letters letters-2">to my</span>
-        <span class="letters letters-3">baby doll!</span>
+        <span class="letters letters-3">baby girl!</span>
+        <span class="letters letters-4">I LOVE YOU!</span>
+        <span class="letters letters-5"><i class="large material-icons">favorite</i></span>
     </h1>
   </div>
 
@@ -90,6 +92,30 @@ ml.timelines["ml4"] = anime.timeline({loop: true})
     duration: ml4.durationIn
   }).add({
     targets: '.ml4 .letters-3',
+    opacity: 0,
+    scale: ml4.scaleOut,
+    duration: ml4.durationOut,
+    easing: "easeInExpo",
+    delay: ml4.delay
+  }).add({
+    targets: '.ml4 .letters-4',
+    opacity: ml4.opacityIn,
+    scale: ml4.scaleIn,
+    duration: ml4.durationIn
+  }).add({
+    targets: '.ml4 .letters-4',
+    opacity: 0,
+    scale: ml4.scaleOut,
+    duration: ml4.durationOut,
+    easing: "easeInExpo",
+    delay: ml4.delay
+  }).add({
+    targets: '.ml4 .letters-5',
+    opacity: ml4.opacityIn,
+    scale: ml4.scaleIn,
+    duration: ml4.durationIn
+  }).add({
+    targets: '.ml4 .letters-5',
     opacity: 0,
     scale: ml4.scaleOut,
     duration: ml4.durationOut,
