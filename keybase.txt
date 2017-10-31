@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/anubhavdeka
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://anubhavdeka.xyz
+  * I am anubhavdeka (https://keybase.io/anubhavdeka) on keybase.
+  * I have a public key ASD4p5OyozFx3tudV7G8pBjk5M77yRJKaEhNPBp6x3_yKQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f8a793b2a33171dedb9d57b1bca418e4e4cefbc9124a68484d3c1a7ac77ff2290a",
+      "host": "keybase.io",
+      "kid": "0120f8a793b2a33171dedb9d57b1bca418e4e4cefbc9124a68484d3c1a7ac77ff2290a",
+      "uid": "0d876090fa9a290fe38d6accdefc6a19",
+      "username": "anubhavdeka"
+    },
+    "merkle_root": {
+      "ctime": 1509472497,
+      "hash": "68ec7f37dd6f8bd7c07fb3f0ee9530ae8fced39a1f7beee8c5d7b64851cab3fb971eb80e702b7dff3477ef7633a6c49881d526626638bf2b2ed8593e63e7f7fa",
+      "hash_meta": "d9ff4ab6138ec15ceaf8c811c5c60c930b6f40a603cd5287ff769ecf360ad979",
+      "seqno": 1651122
+    },
+    "service": {
+      "hostname": "anubhavdeka.xyz",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.34"
+  },
+  "ctime": 1509472568,
+  "expire_in": 504576000,
+  "prev": "59cae8479eb8963f3f37ec586612a96f6f7b34a36db7ba3211f0b4e45fc0535e",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+KeTsqMxcd7bnVexvKQY5OTO+8kSSmhITTwaesd/8ikKp3BheWxvYWTFA0l7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjhhNzkzYjJhMzMxNzFkZWRiOWQ1N2IxYmNhNDE4ZTRlNGNlZmJjOTEyNGE2ODQ4NGQzYzFhN2FjNzdmZjIyOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjhhNzkzYjJhMzMxNzFkZWRiOWQ1N2IxYmNhNDE4ZTRlNGNlZmJjOTEyNGE2ODQ4NGQzYzFhN2FjNzdmZjIyOTBhIiwidWlkIjoiMGQ4NzYwOTBmYTlhMjkwZmUzOGQ2YWNjZGVmYzZhMTkiLCJ1c2VybmFtZSI6ImFudWJoYXZkZWthIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA5NDcyNDk3LCJoYXNoIjoiNjhlYzdmMzdkZDZmOGJkN2MwN2ZiM2YwZWU5NTMwYWU4ZmNlZDM5YTFmN2JlZWU4YzVkN2I2NDg1MWNhYjNmYjk3MWViODBlNzAyYjdkZmYzNDc3ZWY3NjMzYTZjNDk4ODFkNTI2NjI2NjM4YmYyYjJlZDg1OTNlNjNlN2Y3ZmEiLCJoYXNoX21ldGEiOiJkOWZmNGFiNjEzOGVjMTVjZWFmOGM4MTFjNWM2MGM5MzBiNmY0MGE2MDNjZDUyODdmZjc2OWVjZjM2MGFkOTc5Iiwic2Vxbm8iOjE2NTExMjJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYW51YmhhdmRla2EueHl6IiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNCJ9LCJjdGltZSI6MTUwOTQ3MjU2OCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI1OWNhZTg0NzllYjg5NjNmM2YzN2VjNTg2NjEyYTk2ZjZmN2IzNGEzNmRiN2JhMzIxMWYwYjRlNDVmYzA1MzVlIiwic2Vxbm8iOjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAmqSyPw1uVOMaX70N+oWYP6ZcPJIQHbsDCDVkcRZp4M5db9qi+hyczECBLSOu58ZJbEpymRsoLtoC1SvwjOjcD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJzsoxCL2fHiSzP3Kn4cotUtWWv9FG5hWWUYEsLageddo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/anubhavdeka
+
+==================================================================
