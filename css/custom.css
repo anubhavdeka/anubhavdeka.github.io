@@ -20,3 +20,7 @@
   0% {background-position:left;}
   100% { background-position:right;}
 }
+
+i.icon-grey {
+    color: grey;
+}
