@@ -24,3 +24,7 @@
 i.icon-grey {
     color: grey;
 }
+
+a.buttons{
+  padding: 15px;
+}
