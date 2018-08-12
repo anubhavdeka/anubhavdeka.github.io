@@ -32,3 +32,11 @@ a.buttons{
 .page-footer {
   background-color: #ffffff !important ;
  }
+
+ .p1{
+  text-transform: lowercase;
+ }
+
+ .no-uppercase {
+     text-transform: none;
+}
