@@ -42,6 +42,27 @@
 	 		    window.location.href = "index-m.html";
 	 		  }
 	 </script>
+	 <script type="text/javascript">
+		var elem = document.querySelector('.collapsible.expandable');
+		var instance = M.Collapsible.init(elem, {
+		  accordion: false
+		});
+	 </script>
+
+	 <div class="row">
+      <div class="col s1">1</div>
+      <div class="col s1">2</div>
+      <div class="col s1">3</div>
+      <div class="col s1">4</div>
+      <div class="col s1">5</div>
+      <div class="col s1">6</div>
+      <div class="col s1">7</div>
+      <div class="col s1">8</div>
+      <div class="col s1">9</div>
+      <div class="col s1">10</div>
+      <div class="col s1">11</div>
+      <div class="col s1">12</div>
+    </div>
 
 	<div class="section"></div>
 	<div class="section"></div>
@@ -65,9 +86,24 @@
 				
 				<div class="section"></div>
 				<div class="section"></div>
-					
-				<h1 class="center-align" style="font-weight: 100;">anubhavDeka</h1>
 				
+				<div>
+				<ul class="collapsible popout" data-collapsible="expandable">	
+					
+					<li>
+						<!-- <div class="collapsible-header hoverable z-depth-2"> -->
+							<span>
+								<h1 class="center-align" style="font-weight: 100">anubhavDeka</h1>
+							</span>
+						</div>
+					<div class="collapsible-body">
+						<span>
+							lorem
+						</span>
+					</div>
+					</li>
+				</ul>
+				</div>
 				<div class="section"></div>
 
 					<div class="col s2 offset-s2">
@@ -79,7 +115,7 @@
 					</div>
 
 					<div class="col s2 offset-s1">
-						<a class="btn-floating btn-large waves-effect waves-light white z-depth-5 pulse" href="mailto:adeka14@gmail.com?Subject=Hello,I%20am%20contacting%20you%20from%20your%20website."><i class="material-icons icon-grey">call</i></a>
+						<a class="btn-floating btn-large waves-effect waves-light white z-depth-5 hoverable" href="mailto:adeka14@gmail.com?Subject=Hello,I%20am%20contacting%20you%20from%20your%20website."><i class="material-icons icon-grey">call</i></a>
 					</div>
 			</div>
 
